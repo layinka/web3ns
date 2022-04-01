@@ -1,3 +1,5 @@
+<img src="./example_domain.png" height="128px"/>
+
 # Meter Naming Service
 L2-agnostic Naming Service Smart Contract/DApp for Meter.io
 
