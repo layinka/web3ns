@@ -22,4 +22,10 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  */
 module.exports = {
   solidity: "0.8.10",
+  networks: {
+    meter: {
+      url: env.RPC_URL,
+      accounts: [env.TESTNET_PRIVKEY]
+    }
+  }
 };
