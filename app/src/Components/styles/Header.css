@@ -1,0 +1,88 @@
+
+.acccountsInfoLabel {
+    display: flex;
+}
+
+.acccountsInfoLabel button {
+    margin-top: .95rem !important;
+    margin-bottom: .95rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #000;
+    color: #FFF;
+}
+
+.navbarContainer {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 1rem;
+}
+
+.nvbLeft {
+    display: flex;
+}
+
+.nvbLeft p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    padding-top: .65rem;
+    padding-left: .65rem;
+    padding-right: .65rem;
+}
+
+.nvbLeft button {
+    margin-top: 1.05rem;
+    margin-left: .35rem;
+    margin-right: .35rem;
+
+
+}
+
+.nvbLeft button {
+    font-size: 11px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transition-property: background-color;
+}
+
+.nvbLeft button:hover {
+    background-color: rgba(255, 255, 255, 0.455);
+}
+
+    .nvbLeft-NetworkName {
+        color: rgb(82, 175, 255);
+    }
+
+.nvbLeft img {
+    width: 50px;
+}
+
+.nvbRight {
+    margin-left: auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nvbRight a {
+    color: white;
+    text-decoration: none;
+}
+
+.nvbRight a:hover {
+    color: rgb(82, 175, 255);
+    text-decoration: underline;
+}
